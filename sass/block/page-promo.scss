@@ -38,11 +38,7 @@
   display: block;
   width: 280px;
   transform: translateX(50%);
-
-}
-
-@media #{$tablet-widths} {
-.page-promo__image {
+  @media #{$tablet-widths} {
     top: 16%;
     width: 460px;
   }

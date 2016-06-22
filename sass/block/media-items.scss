@@ -1,9 +1,5 @@
 .media-items {
-
-}
-
-@media #{$tablet-widths} {
-  .media-items {
+  @media #{$tablet-widths} {
     display: flex;
     flex-wrap: wrap;
   }

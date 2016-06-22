@@ -14,11 +14,15 @@
 .main-nav__item {
   border-top: 1px solid #9ac1db;
   border-bottom: 1px solid #678fa8;
-    @media #{$tablet-widths} {
+
+     @media #{$tablet-widths} {
       width: 20%;
       display: inline-block;
       vertical-align: top;
       border: none;
+      &:nth-child(2) {
+      margin-right: 20%;
+  }
 }
 }
 
@@ -36,17 +40,11 @@
     @media #{$tablet-widths} {
       background: none;
       color: #000000;
+      font-size: 14px;
     }
 }
 
 .main-nav__item:first-child {
   border-top: none;
 }
-
- @media #{$tablet-widths} {
-   &:nth-child(2) {
-      margin-right: 20%;
-  }
-}
-
 

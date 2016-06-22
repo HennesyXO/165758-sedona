@@ -1,7 +1,25 @@
+.popup {
+  width: 400px;
+}
+
 .popup__title {
   font-size: 18px;
   line-height: 26px;
   color: $base-text-color;
+  text-align: center;
+}
+
+.popup__message {
+text-align: center;
+
+}
+.popup--failure{
+width: 270px;
+}
+
+.popup--success {
+
+  width: 640px;
 }
 
 .popup__btn {
@@ -15,6 +33,8 @@
   border: 0;
   outline: 0;
   cursor: pointer;
+
+  margin: 0 auto;
 }
 
 .popup__closebg {

@@ -3,10 +3,13 @@
   padding-right: 30px;
   padding-left: 30px;
   text-align: center;
-
-  // @include block-outline(1px, solid, #000000);
+  @media #{$tablet-widths} {
+    width: 458px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+  }
 }
-
 
 .search__title {
   display: block;
@@ -16,7 +19,6 @@
   font-family: $font-bold;
 }
 
-
 .search__description {
   margin: 0;
   font-size: 14px;
@@ -25,20 +27,9 @@
   color: $secondary-text-color;
 }
 
-
 .search__btn {
   margin-bottom: 50px;
-}
-
-@media #{$tablet-widths} {
-  .search {
-    width: 458px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0;
-  }
-
-  .search__btn {
-    width: 458px;
+    @media #{$tablet-widths} {
+      width: 458px;
   }
 }
