@@ -4,5 +4,17 @@
   height: 48px;
   font-size: 0;
   background-color: $secondary-background;
+  background-repeat: no-repeat;
+  background-position: center;
+  fill: white;
+  &--twitter {
+    background-image: url(../img/icon-twitter.svg);
+  }
+  &--facebook {
+    background-image: url(../img/icon-facebook.svg);
+  }
+  &--youtube {
+    background-image: url(../img/icon-youtube.svg);
+  }
 }
 
