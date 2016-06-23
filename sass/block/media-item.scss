@@ -23,16 +23,13 @@
     }
 @media #{$desktop-widths} {
     position: relative;
-
     flex-basis: 33.3333333%;
     padding-bottom: 0;
-
     &--wide {
       flex-basis: 100%;
     }
   }
 }
-
 
 .media-item__link img {
   display: block;
@@ -65,10 +62,10 @@
   font-size: 14px;
   line-height: 24px;
   color: $secondary-text-color;
-    @media #{$tablet-widths} {
-      text-transform: none;
+  @media #{$tablet-widths} {
+    text-transform: none;
   }
-    @media #{$desktop-widths} {
+  @media #{$desktop-widths} {
     color: white;
   }
 }
@@ -97,7 +94,7 @@
 
  .media-item__link {
     @media #{$tablet-widths} {
-    flex-basis: 100%;
+      flex-basis: 100%;
   }
 }
 

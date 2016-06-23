@@ -23,7 +23,6 @@
   width: 102px;
   margin: 0 auto;
   // @media #{$desktop-widths} {
-
   //   background: url(img/bg-triangle.svg) no-repeat 50% 50%;
   // }
 }
@@ -33,7 +32,7 @@
   top: 0;
   right: 0;
   @media #{$tablet-widths} {
-      display: none;
+    display: none;
   }
 }
 

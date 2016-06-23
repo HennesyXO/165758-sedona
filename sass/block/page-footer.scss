@@ -4,7 +4,6 @@
   text-align: center;
 }
 
-
 .page-footer__hashtag {
   display: block;
   margin-bottom: 40px;
@@ -13,7 +12,6 @@
   font-family: $font-bold;
   text-transform: uppercase;
   @media #{$tablet-widths} {
-
     display: block;
     float: left;
     width: 33.3%;
@@ -21,7 +19,6 @@
     display: block;
   }
 }
-
 
 .page-footer__social-links {
   margin-bottom: 40px;
@@ -31,11 +28,6 @@
     width: 33.3%;
     display: block;
   }
-}
-
-.social-btn {
-  margin-right: 6px;
-
 }
 
 .page-footer__copyright {

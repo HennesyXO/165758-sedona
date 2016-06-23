@@ -3,18 +3,17 @@
   padding-bottom: 18px;
   padding-left: 21px;
   border-bottom: 1px solid #e5e5e5;
-    @media #{$tablet-widths} {
-      width: 439px;
-      margin-right: auto;
-      margin-bottom: 80px;
-      margin-left: auto;
+  @media #{$tablet-widths} {
+    width: 439px;
+    margin-right: auto;
+    margin-bottom: 80px;
+    margin-left: auto;
   }
 }
 
 .feedback-header__title {
   margin: 0;
   margin-bottom: 30px;
-
   font-size: 18px;
   line-height: 1.45;
   font-family: $font-bold;

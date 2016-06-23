@@ -5,7 +5,6 @@
   padding-left: 4.2%;
   text-align: center;
   @media #{$tablet-widths} {
-
     float: left;
     box-sizing: border-box;
     width: 33.3%;
@@ -18,17 +17,14 @@
     background-color: $secondary-background;
   }
 
-
   &--gray {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: $alternative-background;
-@media #{$tablet-widths} {
+  @media #{$tablet-widths} {
     padding-top: 50px;
     }
 }
-
-
 
   &--icon {
     padding-top: 40px;
@@ -46,22 +42,20 @@
 &--bg-mask {
     position: relative;
     padding-top: 80px;
-  @media #{$tablet-widths} {
-    position: static;
-    padding-top: 45px;
+    @media #{$tablet-widths} {
+      position: static;
+      padding-top: 45px;
+    }
   }
-}
 }
 
 .feature__title {
   margin: 0;
   margin-bottom: 10px;
-
   font-family: $font-bold;
   font-size: 18px;
   line-height: 1.2;
 }
-
 
 .feature__number {
   display: block;
@@ -69,7 +63,6 @@
   font-size: 14px;
   line-height: 1.5;
 }
-
 
 .feature__description {
   margin: 0;

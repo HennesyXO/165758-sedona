@@ -16,9 +16,9 @@
   background-size: cover;
     @media #{$tablet-widths} {
       position: relative;
-    top: 50%;
-    width: 100%;
-    height: auto;
-    transform: translateY(-50%);
+      top: 50%;
+      width: 100%;
+      height: auto;
+      transform: translateY(-50%);
     }
 }
