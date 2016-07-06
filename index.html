@@ -53,17 +53,27 @@
 		 </div>
 
 		<div class="features-row">
-			<div class="feature feature--icon feature--icon-house">
+			<div class="feature feature__icon">
+				<div class="feature__icon-wrapper">
+
+					<img class="feature feature__icon-house" src="img/icon-house.svg" width="39" height="37" alt="">
+        </div>            
 				<h2 class="feature__title">Жилье</h2>
 				<p class="feature__description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
 			</div>
 
-			<div class="feature feature--icon feature--icon-gift">
+			<div class="feature feature--icon">
+				<div class="feature__icon-wrapper">
+					<img class="feature feature__icon-gift" src="img/icon-gift.svg" width="32" height="38" alt="">
+				</div>
 				<h2 class="feature__title">Сувениры</h2>
 				<p class="feature__description">Не только китайского, но и местного производства!</p>
 			</div>
 
-			<div class="feature feature--icon feature--icon-food">
+			<div class="feature feature--icon">
+				<div class="feature__icon-wrapper">
+					<img class="feature feature__icon-food" src="img/icon-burger.svg" width="40" height="35" alt="">
+				</div>
 				<h2 class="feature__title">Еда</h2>
 				<p class="feature__description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
 			</div>
@@ -76,9 +86,16 @@
 				<p class="feature__description">Да, по нему можно пройти, если вы осмелитесь</p>
 			</div>
 
-			<figure class="feature-picture">
-				<img src="img/photo-bridge@1x.jpg" height="260" alt="" class="feature-picture__image">
-			</figure>
+			<div class="feature-picture">
+				<picture>
+          <source media="(min-width: 768px)"
+            srcset="img/photo-bridge-desktop@1x.jpg 1x,
+                    img/photo-bridge-desktop@2x.jpg 2x">
+          <source media="(min-width: 321px)"
+            srcset="img/photo-bridge-tablet@1x.jpg">
+               <img class="feature-picture__image" src="img/photo-bridge-mobile@1x.jpg" width="320" height="260" alt="">
+        </picture>
+			</div>
 		</div>
 
 		<div class="features-row">

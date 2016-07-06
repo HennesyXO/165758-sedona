@@ -3,8 +3,7 @@
   margin: 0;
   overflow: hidden;
     @media #{$tablet-widths} {
-      width: 66.6%;
-      float: left;
+      flex-basis: 66.66666%;
       height: 256px;
     }
 }

@@ -1,7 +1,15 @@
 .page-footer {
-  margin-top: 40px;
-  margin-bottom: 35px;
+  padding: 35px 20px 20px;
   text-align: center;
+  box-sizing: border-box;
+  @media #{$tablet-widths} {
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding-bottom: 35px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .page-footer__hashtag {
@@ -14,7 +22,7 @@
   @media #{$tablet-widths} {
     display: block;
     float: left;
-    width: 33.3%;
+    flex-basis: 33.33333%;
     padding-top: 11px;
     display: block;
   }
@@ -24,8 +32,7 @@
   margin-bottom: 40px;
   font-size: 0;
   @media #{$tablet-widths} {
-    float: left;
-    width: 33.3%;
+    flex-basis: 33.33333%;
     display: block;
   }
 }
@@ -34,8 +41,7 @@
   margin-bottom: 35px;
   @media #{$tablet-widths} {
     display: block;
-    float: left;
-    width: 33.3%;
+    flex-basis: 33.33333%;
     margin-bottom: 0;
     padding-top: 11px;
   }
